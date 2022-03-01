@@ -16,7 +16,7 @@ Scanner sc = new Scanner(System.in);
      // laver et char array af mit brugetinput
      char[] cubel = klar.toCharArray(); //Laver min array
      for (char rename : cubel) {
-         int sh = (int) rename; //fortæller det med int
+         int sh = (int) rename;
          int ned = 96;
          if (sh <= 122 & sh >= 97)
              System.out.print(sh - ned);
